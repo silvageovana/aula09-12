@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1e3a8a; /* Azul escuro */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #1e90ff; /* Azul claro */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.categorias {
+    position: fixed;
+    top: 20%;
+    right: 5%;
+    background: #1e3a8a; /* Azul escuro */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categorias ul {
+    list-style: none;
+}
+
+.categorias ul li {
+    margin-bottom: 1rem;
+}
+
+.categorias ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.categorias ul li a:hover {
+    color: #1e90ff; /* Azul claro */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+table td {
+    flex: 1;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+table td.imagem {
+    text-align: center;
+}
+
+table td.imagem img {
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+table td.imagem img:hover {
+    transform: scale(1.1);
+}
+
+table td.imagem p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+table td.nome {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
